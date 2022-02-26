@@ -9,7 +9,7 @@
 import time
 import threading
 import RPi.GPIO as GPIO
-sleep_time = 5
+sleep_time = 20
 
 class Ignition(threading.Thread):
   
@@ -21,8 +21,8 @@ class Ignition(threading.Thread):
         super(Ignition, self).__init__(*args, **kwargs)
         self._stop = threading.Event()
         self._actuator = actuator
-        pixels.fill((255, 0, 0))
-        self._pixels = pixels
+        #pixels.fill((255, 0, 0))
+        #self._pixels = pixels
   
     # function using _stop function
     def stop(self):
@@ -41,7 +41,7 @@ class Ignition(threading.Thread):
             if self.stopped():
                 GPIO.output(self._actuator, GPIO.LOW)
                 #Change the color of the pixel led strip
-                self._pixels.fill((0,0,255))
+                #self._pixels.fill((0,0,255))
                 return
   
 

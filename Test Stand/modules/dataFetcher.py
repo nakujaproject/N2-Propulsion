@@ -38,6 +38,7 @@ class FetchData(threading.Thread):
             #Read data from serial - Stays in this loop forever.
             val = self._ser.readline().decode('utf-8').rstrip()
             allPoints.append(val)
+            print (val)
             time.sleep(0.0125)
             if self.stopped():
                 #Store the data in a csv file - labelled according to the name
