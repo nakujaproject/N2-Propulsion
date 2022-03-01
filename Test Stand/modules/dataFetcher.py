@@ -9,6 +9,7 @@ import RPi.GPIO as GPIO
 import numpy as np
 import random
 from datetime import datetime
+import matplotlib.pyplot as plt
 from modules.drive import uploadToDrive
   
 class FetchData(threading.Thread):
@@ -42,8 +43,11 @@ class FetchData(threading.Thread):
             time.sleep(0.0125)
             if self.stopped():
                 #Store the data in a csv file - labelled according to the name
+                plt.plot(allPoints)
                 filename = datetime.now().strftime("%A %d %B %Y %I-%M%p") + ".csv"
                 np.savetxt(filename, allPoints, newline="\n", fmt='%s')
+                graphname = datetime.now().strftime("%A %d %B %Y %I-%M%p") + ".png"
+                plt.savefig(graphname)
                 uploadToDrive(filename)
                 return
   
