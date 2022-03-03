@@ -10,16 +10,10 @@ data:
     timestep: 0.03
   grains:
   - properties:
-      coreDiameter: 0.025
+      coreDiameter: 0.023
       diameter: 0.05
       inhibitedEnds: Neither
-      length: 0.09
-    type: BATES
-  - properties:
-      coreDiameter: 0.025
-      diameter: 0.05
-      inhibitedEnds: Neither
-      length: 0.09
+      length: 0.106
     type: BATES
   nozzle:
     convAngle: 30.0
