@@ -26,9 +26,9 @@ data:
     divAngle: 15.0
     efficiency: 0.95
     erosionCoeff: 0.0
-    exit: 0.025500000000000002
+    exit: 0.03
     slagCoeff: 0.0
-    throat: 0.01
+    throat: 0.013000000000000001
     throatLength: 0.0
   propellant:
     density: 1750.0
