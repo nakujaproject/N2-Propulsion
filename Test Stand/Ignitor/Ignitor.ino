@@ -15,7 +15,7 @@ void loop() {
   if(ignite == 1) {
       delay(10000);
       digitalWrite(8, LOW);
-      delay(5000);
+      delay(15000);
       digitalWrite(8, HIGH);
       ignite = 0;
     }
