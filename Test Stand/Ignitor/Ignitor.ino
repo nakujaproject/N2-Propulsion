@@ -1,22 +1,29 @@
 int ignite = 0;
 
+int tst, prevIgnite;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(8, OUTPUT);
-  pinMode(2, INPUT);
+  //const_val = analogRead(A0);
+  digitalWrite(8, HIGH);
+  //Serial.println(const_val);
+  delay(30000);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(8, HIGH);
-  ignite = digitalRead(2);
+  
+  /*ignite = analogRead(A0);
   Serial.println(ignite);
-  if(ignite == 1) {
-      delay(10000);
-      digitalWrite(8, LOW);
-      delay(15000);
-      digitalWrite(8, HIGH);
-      ignite = 0;
-    }
+  tst = abs(ignite - prevIgnite);
+  prevIgnite = ignite;
+  if ( tst >= 80 ) {*/
+    delay(100);
+    digitalWrite(8, LOW);
+    delay(5000);
+    digitalWrite(8, HIGH);
+    delay(100);
+    //}
 }
