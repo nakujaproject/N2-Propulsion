@@ -1,14 +1,14 @@
 #include <Arduino.h>
 // https://github.com/bogde/HX711
 #include "HX711.h"
-const int DT_PIN = 2;
-const int SCK_PIN = 3;
+const int DT_PIN = 6;
+const int SCK_PIN = 5;
 HX711 scale;
 //TO DO
 //set reference and offseet
 void setup() {
-  float unit = -20866.80;
-  float reference_i = 231.0;
+  float unit = 2812.80;
+  float reference_i = 221.0;
   float deviation = 3.40;
   Serial.begin(9600);
   //Serial.println("start");
