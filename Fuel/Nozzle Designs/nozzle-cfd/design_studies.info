@@ -1,0 +1,7 @@
+<cfd_design_studies version="23.0.20220516" user_name="washi">
+ <design_study study_id="934e556a-d24a-43db-902c-74759e397939" name="nozzle-cfd" instance_id="id_not_defined" folder="C:/Users/washi/Documents/GitHub/N2-Propulsion/Fuel/Nozzle Designs/nozzle-cfd">
+  <design model_id="Nozzle design v3.cfdsmt" lock_status="false" name="Design 1" launcher_type="CP_ASM_INVENTOR_IMPORT">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

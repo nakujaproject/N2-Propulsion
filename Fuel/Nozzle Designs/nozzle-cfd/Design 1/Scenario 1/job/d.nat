@@ -1,0 +1,220 @@
+22800 0 2 2           
+6 SimASM 20 ASM 228.1.0.65535 NT 24 Tue Aug  9 14:58:00 2022 
+10 9.999999999999999547e-07 1.000000000000000036e-10 
+asmheader $-1 -1 @13 228.1.0.65535 #
+body $2 -1 $-1 $3 $-1 $4 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $5 $-1 $1 copy keep_all ignore copy @11 SimCompName @23 Nozzle design v3.cfdsmt #
+lump $6 -1 $-1 $-1 $7 $1 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+DXID-attrib $-1 -1 $8 $2 $1 @19 ATF Occurrence Path @42 <N/A>_@OPS@_<N/A>_@OPS@_Part1_@OPS@_Solid2 #
+cell_ptr-ct-attrib $-1 -1 $-1 $-1 $3 $9 $-1 auto #
+shell $-1 -1 $-1 $-1 $-1 $10 $-1 $3 #
+rgb_color-st-attrib $-1 -1 $11 $5 $1 0.627450980392156854 0.627450980392156854 0.627450980392156854 1 #
+cell3d-cell $12 -1 $-1 $3 $-1 1 $13 #
+face $14 -1 $-1 $15 $16 $7 $-1 $17 forward single #
+DXID-attrib $-1 -1 $-1 $8 $1 @10 ASM ENTITY @226 {"label":"Body2","asset":"e6c69180-bbbd-4af0-94ee-4b24a8ccbd1b","segment":"0","entity":"706","revision":"04ae8ad2-2f09-4bf3-ba9e-86149b81a417","meta":"D3937028-C20C-4E65-B010-94AD418A5C20","metaName":"BodyMetaType","extra":""} #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $9 lose lose ignore lose @6 GS_tag 1 #
+cshell $-1 -1 $-1 $18 $9 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $19 $-1 $10 lose lose ignore lose @6 GS_tag 11 #
+face $20 -1 $-1 $21 $22 $7 $-1 $23 forward single #
+loop $-1 -1 $-1 $24 $25 $10 #
+plane-surface $-1 -1 $-1 0 0 0.4141104721640329611 0 1 -2.52746300019752624e-16 -0 2.52746300019752624e-16 1 forward_v I I I I #
+cface $-1 -1 $26 $13 $27 0 #
+cface_ptr-ct-attrib $-1 -1 $28 $14 $10 $-1 $29 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $30 $-1 $15 lose lose ignore lose @6 GS_tag 10 #
+face $31 -1 $-1 $32 $33 $7 $-1 $34 forward single #
+loop $-1 -1 $-1 $35 $36 $15 #
+cone-surface $-1 -1 $-1 0 -0.6000000089406973824 -0.5999999999999994227 0 1 -2.52746300019752624e-16 0 6.780264691866392835e-16 2.600000000000001421 1 I I 0 1 2.600000000000001421 forward I I I I #
+loop $-1 -1 $-1 $-1 $37 $10 #
+coedge $-1 -1 $-1 $25 $25 $38 $39 forward $16 0 $-1 #
+cface $-1 -1 $40 $13 $41 0 #
+face $42 -1 $-1 $-1 $43 $7 $-1 $44 reversed single #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $45 $19 $10 43 1 19 -1 1 4 51 0 301 0 0 #
+cface $-1 -1 $-1 $13 $10 0 #
+cface_ptr-ct-attrib $-1 -1 $46 $20 $15 $-1 $47 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $48 $-1 $21 lose lose ignore lose @6 GS_tag 8 #
+face $49 -1 $-1 $50 $51 $7 $-1 $52 forward single #
+loop $-1 -1 $-1 $53 $54 $21 #
+plane-surface $-1 -1 $-1 0 -1.200000017881393433 2.000000000000001776 -0 -1 2.52746300019752624e-16 0 -2.52746300019752624e-16 -1 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $38 $15 #
+coedge $-1 -1 $-1 $36 $36 $54 $55 forward $22 0 $-1 #
+coedge $-1 -1 $-1 $37 $37 $56 $57 reversed $24 0 $-1 #
+coedge $-1 -1 $-1 $38 $38 $25 $39 reversed $35 0 $-1 #
+edge $58 -1 $-1 $59 -1.570796326794896558 $59 4.712388980384689674 $25 $60 forward @7 unknown #
+cface $-1 -1 $61 $13 $62 0 #
+face $63 -1 $-1 $27 $64 $7 $-1 $65 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $66 $-1 $27 lose lose ignore lose @6 GS_tag 1 #
+loop $-1 -1 $-1 $67 $68 $27 #
+plane-surface $-1 -1 $-1 0 -2.656000135652720751 -3.200000151991844177 0 1 0 0 0 1 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $28 $10 @10 ASM ENTITY @1 0 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $69 $30 $15 43 1 19 -1 1 4 52 0 301 0 0 #
+cface $-1 -1 $29 $13 $15 0 #
+cface_ptr-ct-attrib $-1 -1 $70 $31 $21 $-1 $71 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $72 $-1 $32 lose lose ignore lose @6 GS_tag 6 #
+face $73 -1 $-1 $74 $75 $7 $-1 $76 forward single #
+loop $-1 -1 $-1 $77 $78 $32 #
+cone-surface $-1 -1 $-1 0 -1.400000020861626338 -0.5999999999999992006 0 1 -2.52746300019752624e-16 0 5.737147046963870102e-16 2.200000000000001066 1 I I 0 1 2.200000000000001066 forward I I I I #
+loop $-1 -1 $-1 $-1 $79 $21 #
+coedge $-1 -1 $-1 $54 $54 $36 $55 reversed $33 0 $-1 #
+edge $80 -1 $-1 $81 -1.570796326794896558 $81 4.712388980384689674 $36 $82 forward @7 unknown #
+coedge $-1 -1 $-1 $56 $56 $37 $57 forward $83 0 $-1 #
+edge $84 -1 $-1 $85 -1.570796326794896558 $85 4.712388980384689674 $37 $86 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $39 lose lose ignore lose @6 GS_tag 11 #
+vertex $87 -1 $-1 $39 0 $88 #
+ellipse-curve $-1 -1 $-1 0 -6.571403800513572071e-16 -0.5999999999999995337 0 1 -2.52746300019752624e-16 2.600000000000001421 0 0 1 I I #
+cface $-1 -1 $89 $13 $50 0 #
+face $90 -1 $-1 $41 $91 $7 $-1 $92 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $93 $-1 $41 lose lose ignore lose @6 GS_tag 2 #
+loop $-1 -1 $-1 $94 $95 $41 #
+cone-surface $-1 -1 $-1 0 -2.228148018663044017 -0.5999999999999989786 0 1 -2.52746300019752624e-16 0 6.780264691866389877e-16 2.600000000000000533 1 I I 0 1 2.600000000000000533 forward I I I I #
+cface_ptr-ct-attrib $-1 -1 $96 $42 $27 $-1 $18 #
+loop $-1 -1 $-1 $-1 $97 $27 #
+coedge $-1 -1 $-1 $68 $68 $95 $98 reversed $43 0 $-1 #
+DXID-attrib $-1 -1 $-1 $46 $15 @10 ASM ENTITY @1 1 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $99 $48 $21 43 1 19 -1 1 4 53 0 301 0 0 #
+cface $-1 -1 $100 $13 $21 0 #
+cface_ptr-ct-attrib $-1 -1 $101 $49 $32 $-1 $102 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $103 $-1 $50 lose lose ignore lose @6 GS_tag 4 #
+face $104 -1 $-1 $105 $106 $7 $-1 $107 forward single #
+loop $-1 -1 $-1 $108 $109 $50 #
+plane-surface $-1 -1 $-1 0 -1.60000002384185791 1.600000000000001865 0 1 -2.52746300019752624e-16 -0 2.52746300019752624e-16 1 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $110 $32 #
+coedge $-1 -1 $-1 $78 $78 $111 $112 forward $51 0 $-1 #
+coedge $-1 -1 $-1 $79 $79 $110 $113 forward $53 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $55 lose lose ignore lose @6 GS_tag 9 #
+vertex $114 -1 $-1 $55 0 $115 #
+ellipse-curve $-1 -1 $-1 0 -1.200000017881394099 -0.5999999999999992006 0 1 -2.52746300019752624e-16 2.600000000000000977 0 0 1 I I #
+loop $-1 -1 $-1 $116 $56 $117 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $57 lose lose ignore lose @6 GS_tag 10 #
+vertex $118 -1 $-1 $57 0 $119 #
+ellipse-curve $-1 -1 $-1 0 -2.563126696507434997e-16 -0.5999999999999995337 0 1 -2.52746300019752624e-16 1.014110472164032384 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $120 $-1 $59 lose lose ignore lose @6 GS_tag 11 #
+point $-1 -1 $-1 0 0 2.000000000000001776 #
+cface $-1 -1 $102 $13 $74 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $121 $-1 $62 lose lose ignore lose @6 GS_tag 3 #
+loop $-1 -1 $-1 $122 $123 $62 #
+cone-surface $-1 -1 $-1 0 -1.428148006742115061 -0.5999999999999992006 0 1 -2.52746300019752624e-16 0 4.172470579610085509e-16 1.600000000000000089 1 I I 0.5735764363510461594 -0.8191520442889916875 1.600000000000000089 forward I I I I #
+cface_ptr-ct-attrib $-1 -1 $124 $63 $41 $-1 $26 #
+loop $-1 -1 $-1 $-1 $125 $41 #
+coedge $-1 -1 $-1 $95 $95 $68 $98 forward $64 0 $-1 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $126 $66 $27 43 1 19 -1 2 4 51 0 303 0 4 51 0 304 0 0 #
+coedge $-1 -1 $-1 $97 $97 $127 $128 reversed $67 0 $-1 #
+edge $129 -1 $-1 $130 -3.141592653589793116 $130 3.141592653589793116 $95 $131 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $70 $21 @10 ASM ENTITY @1 2 #
+cface $-1 -1 $47 $13 $117 0 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $132 $72 $32 43 1 19 -1 1 4 54 0 301 0 0 #
+cface $-1 -1 $133 $13 $32 0 #
+cface_ptr-ct-attrib $-1 -1 $134 $73 $50 $-1 $61 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $135 $-1 $74 lose lose ignore lose @6 GS_tag 5 #
+face $136 -1 $-1 $117 $137 $7 $-1 $138 forward single #
+loop $-1 -1 $-1 $139 $140 $74 #
+cone-surface $-1 -1 $-1 0 3.545448267190430158 -0.6000000000000004219 0 1 -2.52746300019752624e-16 0 4.042080873997271647e-16 1.550000000000000488 1 I I -0.2588190451025211836 -0.9659258262890680902 1.550000000000000488 forward I I I I #
+loop $-1 -1 $-1 $-1 $111 $50 #
+coedge $-1 -1 $-1 $109 $109 $125 $141 forward $75 0 $-1 #
+coedge $-1 -1 $-1 $110 $110 $79 $113 reversed $77 0 $-1 #
+coedge $-1 -1 $-1 $111 $111 $78 $112 reversed $108 0 $-1 #
+edge $142 -1 $-1 $143 -1.570796326794896558 $143 4.712388980384689674 $78 $144 forward @7 unknown #
+edge $145 -1 $-1 $146 -1.570796326794896558 $146 4.712388980384689674 $79 $147 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $148 $-1 $81 lose lose ignore lose @6 GS_tag 9 #
+point $-1 -1 $-1 0 -1.200000017881393433 2.000000000000001776 #
+loop $-1 -1 $-1 $-1 $149 $117 #
+face $150 -1 $-1 $62 $83 $7 $-1 $151 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $152 $-1 $85 lose lose ignore lose @6 GS_tag 10 #
+point $-1 -1 $-1 0 0 0.4141104721640329611 #
+no_merge_attribute-st-attrib $-1 -1 $153 $87 $59 #
+cface_ptr-ct-attrib $-1 -1 $154 $90 $62 $-1 $40 #
+loop $-1 -1 $-1 $-1 $127 $62 #
+coedge $-1 -1 $-1 $123 $123 $155 $156 forward $91 0 $-1 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $157 $93 $41 43 1 19 -1 1 4 56 0 301 0 0 #
+coedge $-1 -1 $-1 $125 $125 $109 $141 reversed $94 0 $-1 #
+DXID-attrib $-1 -1 $-1 $96 $27 @10 ASM ENTITY @2 10 #
+coedge $-1 -1 $-1 $127 $127 $97 $128 forward $122 0 $-1 #
+edge $158 -1 $-1 $159 -3.141592653589793116 $159 3.141592653589793116 $127 $160 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $98 lose lose ignore lose @6 GS_tag 1 #
+vertex $161 -1 $-1 $98 0 $162 #
+ellipse-curve $-1 -1 $-1 0 -2.656000135652719862 -0.5999999999999988676 0 1 0 0 6.780264691866389877e-16 2.600000000000000533 1 I I #
+DXID-attrib $-1 -1 $-1 $101 $32 @10 ASM ENTITY @1 3 #
+cface $-1 -1 $71 $13 $105 0 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $163 $103 $50 43 1 19 -1 1 4 55 0 301 0 0 #
+cface_ptr-ct-attrib $-1 -1 $164 $104 $74 $-1 $89 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $165 $-1 $105 lose lose ignore lose @6 GS_tag 7 #
+loop $-1 -1 $-1 $166 $167 $105 #
+plane-surface $-1 -1 $-1 0 7.090896534380861205 1.900000000000000133 0 1 -2.52746300019752624e-16 -0 2.52746300019752624e-16 1 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $155 $74 #
+coedge $-1 -1 $-1 $140 $140 $168 $169 forward $106 0 $-1 #
+edge $170 -1 $-1 $171 -4.712388980384689674 $171 1.570796326794896558 $109 $172 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $112 lose lose ignore lose @6 GS_tag 5 #
+vertex $173 -1 $-1 $112 0 $174 #
+ellipse-curve $-1 -1 $-1 0 -1.600000023841858576 -0.5999999999999990896 0 1 -2.52746300019752624e-16 2.200000000000001066 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $113 lose lose ignore lose @6 GS_tag 7 #
+vertex $175 -1 $-1 $113 0 $176 #
+ellipse-curve $-1 -1 $-1 0 -1.200000017881394099 -0.5999999999999992006 0 1 -2.52746300019752624e-16 2.200000000000001066 0 0 1 I I #
+no_merge_attribute-st-attrib $-1 -1 $177 $114 $81 #
+coedge $-1 -1 $-1 $149 $149 $167 $178 reversed $116 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $179 $-1 $117 lose lose ignore lose @6 GS_tag 9 #
+cone-surface $-1 -1 $-1 0 3.545448267190429714 -0.6000000000000004219 0 1 -2.52746300019752624e-16 0 5.121995725130314876e-16 1.96411047216403345 1 I I 0.2588190451025211836 0.9659258262890680902 1.96411047216403345 forward I I I I #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $118 $85 43 1 19 -1 3 0 132 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $120 $59 43 1 19 -1 2 0 132 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $180 $121 $62 43 1 19 -1 1 4 57 0 301 0 0 #
+coedge $-1 -1 $-1 $155 $155 $123 $156 reversed $139 0 $-1 #
+edge $181 -1 $-1 $182 -1.570796326794896558 $182 4.712388980384689674 $123 $183 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $124 $41 @10 ASM ENTITY @1 9 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $128 lose lose ignore lose @6 GS_tag 2 #
+vertex $184 -1 $-1 $128 0 $185 #
+ellipse-curve $-1 -1 $-1 0 -2.656000135652719862 -0.5999999999999988676 -0 -1 -0 0 6.414525000705277581e-16 2.459751316470046412 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $186 $-1 $130 lose lose ignore lose @6 GS_tag 1 #
+point $-1 -1 $-1 0 -2.656000135652719862 -3.199999999999999289 #
+DXID-attrib $-1 -1 $-1 $134 $50 @10 ASM ENTITY @1 4 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $187 $135 $74 43 1 19 -1 1 5 49 48 0 301 0 0 #
+cface_ptr-ct-attrib $-1 -1 $188 $136 $105 $-1 $133 #
+loop $-1 -1 $-1 $-1 $168 $105 #
+coedge $-1 -1 $-1 $167 $167 $149 $178 forward $137 0 $-1 #
+coedge $-1 -1 $-1 $168 $168 $140 $169 reversed $166 0 $-1 #
+edge $189 -1 $-1 $190 -1.570796326794896558 $190 4.712388980384689674 $140 $191 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $141 lose lose ignore lose @6 GS_tag 3 #
+vertex $192 -1 $-1 $141 0 $193 #
+ellipse-curve $-1 -1 $-1 0 -1.600000023841858576 -0.5999999999999990896 0 1 -2.52746300019752624e-16 2.600000000000000977 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $194 $-1 $143 lose lose ignore lose @6 GS_tag 5 #
+point $-1 -1 $-1 0 -1.60000002384185791 1.600000000000001865 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $195 $-1 $146 lose lose ignore lose @6 GS_tag 7 #
+point $-1 -1 $-1 0 -1.200000017881393433 1.600000000000001865 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $148 $81 43 1 19 -1 4 0 132 #
+edge $196 -1 $-1 $197 -1.570796326794896558 $197 4.712388980384689674 $167 $198 forward @7 unknown #
+cface_ptr-ct-attrib $-1 -1 $199 $150 $117 $-1 $100 #
+DXID-attrib $-1 -1 $-1 $154 $62 @10 ASM ENTITY @1 8 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $156 lose lose ignore lose @6 GS_tag 4 #
+vertex $200 -1 $-1 $156 0 $201 #
+ellipse-curve $-1 -1 $-1 0 -1.51647780011851466e-16 -0.5999999999999995337 0 1 -2.52746300019752624e-16 0.5999999999999995337 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $202 $-1 $159 lose lose ignore lose @6 GS_tag 2 #
+point $-1 -1 $-1 3.012326576413530576e-16 -2.656000135652720306 -3.059751316470045168 #
+no_merge_attribute-st-attrib $-1 -1 $203 $161 $130 #
+DXID-attrib $-1 -1 $-1 $164 $74 @10 ASM ENTITY @1 5 #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $204 $165 $105 43 1 19 -1 1 5 49 49 0 301 0 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $169 lose lose ignore lose @6 GS_tag 6 #
+vertex $205 -1 $-1 $169 0 $206 #
+ellipse-curve $-1 -1 $-1 0 7.090896534380860317 -0.6000000000000013101 0 1 -2.52746300019752624e-16 2.500000000000001332 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $207 $-1 $171 lose lose ignore lose @6 GS_tag 3 #
+point $-1 -1 $-1 1.592040838891559835e-16 -1.600000023841859242 -3.200000000000000178 #
+no_merge_attribute-st-attrib $-1 -1 $208 $173 $143 #
+no_merge_attribute-st-attrib $-1 -1 $209 $175 $146 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $178 lose lose ignore lose @6 GS_tag 8 #
+vertex $210 -1 $-1 $178 0 $211 #
+ellipse-curve $-1 -1 $-1 0 7.09089653438085854 -0.6000000000000013101 0 1 -2.52746300019752624e-16 2.914110472164033627 0 0 1 I I #
+NMx_Import_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $212 $179 $117 43 1 19 -1 1 5 49 50 0 301 0 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $213 $-1 $182 lose lose ignore lose @6 GS_tag 4 #
+point $-1 -1 $-1 0 0 0 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $184 $159 43 1 19 -1 11 0 132 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $186 $130 43 1 19 -1 12 0 132 #
+DXID-attrib $-1 -1 $-1 $188 $105 @10 ASM ENTITY @1 6 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $214 $-1 $190 lose lose ignore lose @6 GS_tag 6 #
+point $-1 -1 $-1 0 7.090896534380861205 1.900000000000000133 #
+no_merge_attribute-st-attrib $-1 -1 $-1 $192 $171 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $194 $143 43 1 19 -1 6 0 132 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $195 $146 43 1 19 -1 5 0 132 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $215 $-1 $197 lose lose ignore lose @6 GS_tag 8 #
+point $-1 -1 $-1 0 7.090896534380860317 2.314110472164032206 #
+DXID-attrib $-1 -1 $-1 $199 $117 @10 ASM ENTITY @1 7 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $200 $182 43 1 19 -1 9 0 132 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $205 $190 43 1 19 -1 8 0 132 #
+NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $210 $197 43 1 19 -1 10 0 132 #
+End-of-ASM-data 
