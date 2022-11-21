@@ -24,3 +24,5 @@ This project is where our design files for the nakuja N2 Propulsion are held. Di
 
 * **Resources** Contains the resources used in the development of the fuel.
 
+## Pertinent information
+* **Data Logging** The present calibration factor for the test stand is ___ . 
